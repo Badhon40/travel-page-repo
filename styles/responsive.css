@@ -76,6 +76,15 @@
     .context h1{
         font-size:33px;
     }
-        
 
+     .gridd .flex1,.gridd .flex2,.gridd .flex3{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+   .flex1 .maldiv,.flex1 .indo,.flex2 .srilaka,.flex2 .north,.flex2 .kasmir,.flex3 .bangla,.flex3 .bandar{
+        height: 176px;
+        padding: 80px;
+        font-size: 20px;
+    }
 }

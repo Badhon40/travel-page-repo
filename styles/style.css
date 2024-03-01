@@ -149,3 +149,113 @@ nav .icon i{
     width: 100%;
     
 }
+
+/* grid section */
+.location{
+    padding: 40px 10%;
+    text-align: center;
+}
+.location h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.location p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--p-color);
+    padding: 20px 10%;
+}
+.gridd .flex1{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 15px;
+    color: var(--text-color);
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.flex1 .maldiv{
+    background: url("../images/maldives.png");
+    padding-top: 145px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height:300px;
+    
+}
+.flex1 .indo{
+    background: url("../images/indonesia.png");
+    padding-top: 145px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+}
+.gridd .flex2{
+
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    display: grid;
+    gap: 15px;
+    margin-top: 15px;
+    color: var(--text-color);
+    grid-template-columns: 300px 440px auto;
+}
+.flex2 .srilaka{
+    background: url("../images/srilanka.png");
+    padding-top: 145px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height:300px;
+}
+.flex2 .north{
+    background: url("../images/north-america.png");
+    padding-top: 145px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+}
+
+.flex2 .kasmir{
+    background: url("../images/kashmir.png");
+    padding-top: 145px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+}
+
+ .gridd .flex3{
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    display: grid;
+    gap: 15px;
+    margin-top: 15px;
+    color: var(--text-color);
+    grid-template-columns: auto 540px;
+}
+
+.flex3 .bangla{
+    background: url("../images/bangladesh.png");
+    padding-top: 145px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+}
+
+.flex3 .bandar{
+    background: url("../images/bandarban.png");
+    padding-top: 145px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 300px;
+}
+
