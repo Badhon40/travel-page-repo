@@ -19,8 +19,8 @@
         position: fixed;
         top:80px;
         right:-100% ;
-        background: white;
-        height: 20vh;
+        background: rgb(225, 214, 214);
+        height: 50vh;
         display: block;
         width: 30%;
         text-align: left;
@@ -35,5 +35,47 @@
     #click:checked ~ ul{
         right: 0;
     }
+
+    .banner h1{
+        padding-top:20% ;
+        font-size: 1.8rem;
+        color: var(--text-color);
+        font-weight: 600;
+    }
+    .banner p{
+        color:rgba(242, 236, 236, 0.826);
+        font-size: 10px;
+        padding-top: 14px;
+    }
+    .banner .search{
+        display:flex;
+        flex-direction: column;
+        width: 200px;
+        margin: 0 auto;
+        row-gap: 15px;
+        margin-top: 20px;
+        padding: 8px;
+    }
+    .search>div{
+        background-color: var(--text-color);
+        color: var(--p-color);
+        display: flex;
+        align-items: center;
+        width:150px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .popular{
+        flex-direction: column;
+        row-gap: 20px;
+
+    }
+    .context{
+        width: 100%;
+    }
+    .context h1{
+        font-size:33px;
+    }
+        
 
 }
