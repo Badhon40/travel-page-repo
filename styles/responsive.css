@@ -88,6 +88,9 @@
         row-gap: 20px;
 
     }
+    .popular .img-mout{
+        width: 100%;
+    }
     .context{
         width: 100%;
     }
@@ -111,10 +114,43 @@
         padding: 80px;
         font-size: 20px;
     }
+     .box h1{
+        font-size: 18px;
+     }
+     .box h2{
+        font-size: 16px;
+     }
+
     .cards{
         flex-direction: column;
     }
     .card{
         width: 100%;
     }
+
+    .video-mout{
+        width: 100%;
+    }
+
+    .newsletter{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .newsletter .texts, .newsletter .img{
+        width: 100%;
+    }
+    .coupon{
+        right:12%;
+        top: 7100.12px;
+        padding: 30px;
+       
+    }
+    .coupon h3{
+        font-size: 12px;
+    }
+    .coupon h1{
+        font-size: 16px;
+    }
+
+
 }

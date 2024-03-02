@@ -117,6 +117,7 @@ nav .icon i{
 .popular{
     padding: 80px 10%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .context{
@@ -144,6 +145,7 @@ nav .icon i{
 
 .img-mout{
     text-align: end;
+    width: 50%;
 }
 .img-mout img{
     width: 100%;
@@ -155,11 +157,11 @@ nav .icon i{
     padding: 40px 10%;
     text-align: center;
 }
-.location h1, .choose h1{
+.location h1, .choose h1,.deals h1{
     font-size: 40px;
     font-weight: 800;
 }
-.location p{
+.location p, .deals p{
     font-size: 16px;
     font-weight: 400;
     color: var(--p-color);
@@ -202,7 +204,7 @@ nav .icon i{
     gap: 15px;
     margin-top: 15px;
     color: var(--text-color);
-    grid-template-columns: 300px 440px auto;
+    grid-template-columns: 300px auto 230px;
 }
 .flex2 .srilaka{
     background: url("../images/srilanka.png");
@@ -238,7 +240,7 @@ nav .icon i{
     gap: 15px;
     margin-top: 15px;
     color: var(--text-color);
-    grid-template-columns: auto 540px;
+    grid-template-columns:400px auto;
 }
 
 .flex3 .bangla{
@@ -257,6 +259,10 @@ nav .icon i{
     background-size: cover;
     border-radius: 15px;
     height: 300px;
+}
+
+.gridd>div>div:hover{
+    opacity: 10;
 }
 
 /* Choose us section */
@@ -299,5 +305,123 @@ nav .icon i{
     height: 450px;
     margin: 40px auto;
     border-radius: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.box div{
+    text-align:center;
+    padding:20px;
+    width: 70%;
+    background: rgba(255, 255, 255, 0.526);
+    border: 1px solid red;
+    border-radius: 10px;
+}
+button {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--main-color);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    transition: all ease-in-out .3s;
+}
+button:hover{
+    transform: scale(1.05);
+}
+.video-mout{
+    width: 50%;
+}
+
+video{
+    width: 100%;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+/* newsletter */
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+   
+}
+.newsletter .texts{
+    width: 43%;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    padding: 30px;
+}
+.newsletter .texts .form{
+    margin-top: 40px;
+    display: grid;
+    gap: 10px;
+}
+.newsletter .texts .form input{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+}
+.newsletter .img{
+    width: 55%;
+}
+.newsletter img{
+    width: 100%;
+}
+
+
+/* footer */
+.foot-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+footer{
+    text-align: center;
+    height: 340px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.coupon{
+    text-align: center;
+    position: absolute;
+    border-left: 0px;
+    right: 12%;
+    top: 5670px;
+    border-radius: 10px;
+    background: var(--main-color);
+    color: var(--text-color);
+    padding: 40px;
+    transform: rotate(-30deg);
+
+}
+.client{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 10%;
+    justify-content: center;
+}
+.rev{
+    background: rgba(245, 243, 241, 0.541);
+    text-align: center;
+    height: 200px;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(128, 125, 125, 0.068);
+}
+
+.rev img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
 }
