@@ -151,11 +151,11 @@ nav .icon i{
 }
 
 /* grid section */
-.location{
+.location , .choose{
     padding: 40px 10%;
     text-align: center;
 }
-.location h1{
+.location h1, .choose h1{
     font-size: 40px;
     font-weight: 800;
 }
@@ -259,3 +259,45 @@ nav .icon i{
     height: 300px;
 }
 
+/* Choose us section */
+
+.cards{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+    justify-content: center;
+}
+.card h1{
+    font-size: 24px;
+    font-weight: 800;
+    padding: 20px 0;
+}
+.card p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--p-color);
+
+}
+
+.card{
+    width: 48%;
+    height: 274px;
+    border-radius: 16px;
+    text-align: left;
+    padding: 40px;
+
+}
+
+/* deals section */
+.deals{
+    text-align: center;
+   
+}
+
+.box{
+    width:80% ;
+    height: 450px;
+    margin: 40px auto;
+    border-radius: 16px;
+
+}
