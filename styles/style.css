@@ -62,7 +62,7 @@ nav .icon i{
 
 /* hero section */
 .hero{
-    max-width: 80%;
+    width: 80%;
     margin: auto;
 }
 
@@ -88,31 +88,29 @@ nav .icon i{
     padding-top: 20px;
 }
 .banner .search{
-    padding: 15px;
+    padding: 20px 20px;
     background-color: rgba(214, 215, 215, 0.424);
     border-radius: 5px;
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
+    gap:10px;
     align-items: center;
+    text-align: center;
     justify-content: space-around;
+}
+.banner .search input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
-.search>div{
-    background-color: var(--text-color);
-    color: var(--p-color);
-    display: flex;
-    align-items: center;
-    width:150px;
-    height: 40px;
-    border-radius: 5px;
-    justify-content: space-around;
-    transition: all ease-in-out .3s;
-}
-.search>div:hover{
-    cursor: pointer;
-    background-color: var(--main-color);
+
+.search input:hover{
+    background: var(--main-color);
     color: var(--text-color);
 }
+
+
 
 .popular{
     padding: 80px 10%;
