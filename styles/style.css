@@ -176,6 +176,7 @@ nav .icon i{
     font-size: 28px;
     font-weight: 800;
     text-align: center;
+    
 }
 
 .flex1 .maldiv{
@@ -185,7 +186,11 @@ nav .icon i{
     background-size: cover;
     border-radius: 15px;
     height:300px;
+    transition: all ease-in-out .6s;
     
+}
+.flex1 .maldiv:hover{
+    transform: scale(1.06);
 }
 .flex1 .indo{
     background: url("../images/indonesia.png");
@@ -194,6 +199,10 @@ nav .icon i{
     background-size: cover;
     border-radius: 15px;
     height: 300px;
+    transition: all ease-in-out .6s;
+}
+.flex1 .indo:hover{
+    transform: scale(1.06);
 }
 .gridd .flex2{
 
@@ -213,6 +222,10 @@ nav .icon i{
     background-size: cover;
     border-radius: 15px;
     height:300px;
+    transition: all ease-in-out .6s;
+}
+.flex2 .srilaka:hover{
+    transform: scale(1.06);
 }
 .flex2 .north{
     background: url("../images/north-america.png");
@@ -221,6 +234,10 @@ nav .icon i{
     background-size: cover;
     border-radius: 15px;
     height: 300px;
+    transition: all ease-in-out .6s;
+}
+.flex2 .north:hover{
+    transform: scale(1.06);
 }
 
 .flex2 .kasmir{
@@ -230,6 +247,10 @@ nav .icon i{
     background-size: cover;
     border-radius: 15px;
     height: 300px;
+    transition: all ease-in-out .6s;
+}
+.flex2 .kasmir:hover{
+    transform: scale(1.06);
 }
 
  .gridd .flex3{
@@ -250,6 +271,10 @@ nav .icon i{
     background-size: cover;
     border-radius: 15px;
     height: 300px;
+    transition: all ease-in-out .6s;
+}
+.flex3 .bangla:hover{
+    transform: scale(1.06);
 }
 
 .flex3 .bandar{
@@ -259,11 +284,13 @@ nav .icon i{
     background-size: cover;
     border-radius: 15px;
     height: 300px;
+    transition: all ease-in-out .6s;
+}
+.flex3 .bandar:hover{
+    transform: scale(1.06);
 }
 
-.gridd>div>div:hover{
-    opacity: 10;
-}
+
 
 /* Choose us section */
 
