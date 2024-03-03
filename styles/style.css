@@ -374,6 +374,20 @@ video{
     width: 100%;
 }
 
+/* marquee */
+
+.marq{
+   background: var(--main-color);
+}
+.coupon{
+    text-align: center;
+    border-left: 0px;
+    border-radius: 10px;
+    color: var(--text-color);
+    padding: 40px;
+
+}
+
 
 /* footer */
 .foot-logo{
@@ -389,19 +403,7 @@ footer{
     background: rgba(19, 19, 24, 0.05);
 }
 
-.coupon{
-    text-align: center;
-    position: absolute;
-    border-left: 0px;
-    right: 12%;
-    top: 5670px;
-    border-radius: 10px;
-    background: var(--main-color);
-    color: var(--text-color);
-    padding: 40px;
-    transform: rotate(-30deg);
 
-}
 .client{
     display: flex;
     flex-wrap: wrap;
