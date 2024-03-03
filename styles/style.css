@@ -394,24 +394,28 @@ video{
 }
 .newsletter .img{
     width: 55%;
+    position: relative;
+    top: 0;
+    right: 0;
+
 }
-.newsletter img{
+.newsletter .image{
     width: 100%;
+    
 }
 
-/* marquee */
-
-.marq{
-   background: var(--main-color);
-}
 .coupon{
+    position: absolute;
+    right:8px;
+    bottom:50px;
     text-align: center;
-    border-left: 0px;
-    border-radius: 10px;
+    background: var(--main-color);
     color: var(--text-color);
-    padding: 40px;
-
+    border-radius: 10px;
+    padding: 30px 30px;
+    transform: rotate(-30deg);
 }
+
 
 
 /* footer */
